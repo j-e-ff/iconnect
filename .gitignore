@@ -1,0 +1,4 @@
+.env
+data/token.json
+data/store.json
+node_modules/

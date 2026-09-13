@@ -1,0 +1,21 @@
+{
+  "name": "ig-telegram-bridge",
+  "version": "1.0.0",
+  "description": "Forwards Instagram DMs to Telegram and lets you reply from any device.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "get-token": "node scripts/get-long-lived-token.js",
+    "get-chat-id": "node scripts/get-chat-id.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
